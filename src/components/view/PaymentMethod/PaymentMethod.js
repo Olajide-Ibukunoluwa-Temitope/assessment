@@ -16,12 +16,10 @@ const PaymentMethod = () => {
     const handleChange = (event) => {
         const {name} = event.target;
 
-        setValue((prevState, props) => (
-            {
-                ...prevState,
-                [name]: event.target.value
-            }
-        ));
+        setValue({
+            ...value,
+            [name]: event.target.value
+        });
     }
 
     return (
@@ -60,7 +58,7 @@ const PaymentMethod = () => {
                         </div>
                         <div className='mb'>
                             <input type="radio" id="save-card" name="save-card" value="save" />
-                            <label for="save-card">Use this card for next time purchase</label><br/>
+                            <label htmlFor="save-card">Use this card for next time purchase</label><br/>
                         </div>
                         <button id='add-card-btn'>Add card</button>
                     </form>
