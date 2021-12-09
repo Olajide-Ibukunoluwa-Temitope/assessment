@@ -5,6 +5,7 @@
   border-radius: 5px;
   border: solid 1px;
   padding: 0 12px;
+  background: rgba(0,0,0,0.04);
 }
 
 label{
