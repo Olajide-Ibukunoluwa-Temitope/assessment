@@ -1,0 +1,52 @@
+.payment-title-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+.payment-method{
+    width: 57px;
+    height: 35px;
+    margin: 0 2px;
+}
+  
+#payment-title h3{
+    margin-bottom: 0;
+}
+  
+#payment-title p{
+    font-size: 13px;
+    color: lightgray;
+    margin-top: 2px;
+}
+  
+#payment-card{
+    border-radius: 10px;
+    height: 270px;
+}
+
+.input-field-container{
+    flex-wrap: wrap;
+}
+
+form{
+    margin-top: 1rem;
+}
+  
+#save-card{
+    margin: 0;
+}
+  
+#add-card-btn{
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+    background-color: royalblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 0.8rem;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+}

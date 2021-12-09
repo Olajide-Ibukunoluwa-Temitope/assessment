@@ -1,0 +1,30 @@
+#complete-payment-btn{
+    width: fit-content;
+    border: none;
+    border-radius: 3px;
+    background-color: royalblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .payment-cost-item p{
+    font-weight: bold;
+    font-size: 13px;
+    margin: 6px 0;
+  }
+  
+  .payment-cost-item p span{
+    font-weight: bold;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.2);
+  }
+  
+  #total p {
+    font-weight: bold;
+    color: black;
+    margin: 6px 0;
+  }
