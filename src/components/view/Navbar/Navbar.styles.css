@@ -13,6 +13,17 @@
     margin: 0 12px;
 }
 
-.navbar-item p{
-    font-weight: bold;  
+a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.65);
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 850px) {
+    a{
+        font-size: 13px;
+    }
+    .navbar{
+        justify-content: center;
+    }
 }

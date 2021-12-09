@@ -2,6 +2,7 @@
   padding: 1.5rem 7rem;
   font-family: 'Poppins', sans-serif;
   color: rgba(0, 0, 0, 0.65);
+  /* width: 100%; */
 }
 
 hr{
@@ -29,3 +30,8 @@ hr{
 }
 
 
+@media only screen and (max-width: 850px) {
+    .App{
+      padding: 1rem 1.5rem;
+    }
+}

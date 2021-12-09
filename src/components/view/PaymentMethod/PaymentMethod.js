@@ -35,11 +35,11 @@ const PaymentMethod = () => {
                     ))}
                 </div>
             </div>
-            <div className='flex'>
-                <div className='half-width'>
+            <div className='flex card-details-section'>
+                <div className='half-width full-width'>
                     <img src={mastercardImg} id='payment-card' alt='payment-card-img' />
                 </div>
-                <div className='half-width'>
+                <div className='half-width full-width'>
                     <form>
                         <div className='flex input-field-container'>
                             {
